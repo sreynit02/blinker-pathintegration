@@ -1,0 +1,208 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5738221460795023469
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5738221460795023468}
+  - component: {fileID: 5738221460795023470}
+  - component: {fileID: 5738221460795023471}
+  - component: {fileID: 5738221462106569667}
+  - component: {fileID: 3070367676074528584}
+  m_Layer: 0
+  m_Name: Trial Controller
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5738221460795023468
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5738221460795023469}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5738221460795023470
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5738221460795023469}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14a0c66fb431c4f79abb2e6a2055e4c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PathSegment1: 2
+  PathSegment2: 4
+  PathSegment3: 6
+  PathSegments: 
+  InitialPoles: []
+  PolesInTrials: []
+  StandAloneProject: 1
+  Plane: {fileID: 0}
+  Poles: {fileID: 0}
+  ReturnLocator: {fileID: 0}
+  Pole1: {fileID: 0}
+  Pole2: {fileID: 0}
+  Pole3: {fileID: 0}
+  Pole4: {fileID: 0}
+  Pole5: {fileID: 0}
+  Pole6: {fileID: 0}
+  Pole7: {fileID: 0}
+  Pole8: {fileID: 0}
+  Pole9: {fileID: 0}
+  Pole10: {fileID: 0}
+  Pole11: {fileID: 0}
+  Pole12: {fileID: 0}
+  UIController: {fileID: 0}
+  blinkerController: {fileID: 0}
+  ActiveCamera: {fileID: 0}
+  dataController: {fileID: 5738221460795023471}
+  activationThresold: 0.1
+  leftActivateAction:
+    m_UseReference: 1
+    m_Action:
+      m_Name: Left Activate
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: 46ffcdd2-43f7-4c4d-a98f-22472e38f850
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    m_Reference: {fileID: -4289430672226363583, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+  rightActivateAction:
+    m_UseReference: 1
+    m_Action:
+      m_Name: Right Activate
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: f59a04b7-d24a-4e50-adf1-9b48221b386f
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    m_Reference: {fileID: 7904272356298805229, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+  leftPrimaryAction:
+    m_UseReference: 1
+    m_Action:
+      m_Name: Left Primary
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: 8f8f5571-2fd1-45e0-95d2-1b97f3de6f5a
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    m_Reference: {fileID: -742166285916757337, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+  rightPrimaryAction:
+    m_UseReference: 1
+    m_Action:
+      m_Name: Right Primary
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: af7414ce-9d46-41d3-8768-e045da09e883
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    m_Reference: {fileID: 1729545693356187985, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+  leftSecondaryAction:
+    m_UseReference: 1
+    m_Action:
+      m_Name: Left Secondary
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: 131e00f8-a536-401f-b2a6-4a685c423ccc
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    m_Reference: {fileID: 5102168912444210363, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+  rightSecondaryAction:
+    m_UseReference: 1
+    m_Action:
+      m_Name: Right Secondary
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: 6a40c0f7-d2df-471b-938c-d2e0d9e6573f
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    m_Reference: {fileID: 8921756564122510291, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+  CurrentGameObjects: []
+  CurrentGameObjectsPointer: 0
+  Environment: 2
+  EyeDisease: 0
+  NoScotoma: 0
+  CentralScotoma: 0
+  PeripheralScotoma: 0
+  BlurField: 0
+  ScotomaCondition: 0
+  NoScotomaGO: {fileID: 0}
+  CentralScotomaGO: {fileID: 0}
+  PeripheralScotomaGO: {fileID: 0}
+  BlurFieldGO: {fileID: 0}
+  BlinkerGO: {fileID: 0}
+  BlinkerNeeded: 0
+  BlinkerActivated: 0
+  BlinkerCondition: 0
+--- !u!114 &5738221460795023471
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5738221460795023469}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6054047ae9ad04956a17d8f6cbd8a543, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  trialController: {fileID: 5738221460795023470}
+  filePath1: 
+  ObjectListLength: 0
+  experimentFinished: 0
+  virtualizerCalled: 0
+  VirtualizerConnectionLatency: 0
+--- !u!114 &5738221462106569667
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5738221460795023469}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0396e7c06a4b34947b60d88cdc1e722c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  UsingMode: 2
+--- !u!114 &3070367676074528584
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5738221460795023469}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6faf0e8fc362746f78ead7ef63613dad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
